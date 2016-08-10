@@ -1,0 +1,11 @@
+<resources>
+    <!--String values app-->
+    <string name="app_name">A1_L2_h</string>
+    <string name="my_txt">Альбомнаяи ориентация</string>
+
+    <!--My personal date-->
+    <string name="my_surname">Просто</string>
+    <string name="my_name">СУПЕРМЕН</string>
+    <string name="my_email">superman@gmail.com</string>
+    <string name="status">Но Ночью</string>
+</resources>

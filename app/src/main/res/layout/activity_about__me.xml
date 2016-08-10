@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.onegmail.sedrick.a1_l2_h.About_Me"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/status"
+        android:id="@+id/text_status"
+        android:textColor="@color/color_yellow"
+        android:textStyle="bold"
+        android:textSize="@dimen/text_size_24"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_gravity="center_horizontal"
+        android:padding="@dimen/padding_txt_status" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ImageView
+            android:src="@drawable/businessman"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/my_photo"
+            android:layout_marginLeft="25dp"
+            android:layout_marginStart="25dp"
+            android:layout_weight="1"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/my_surname"
+                android:id="@+id/surname"
+                android:textColor="@color/color_white"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_size_24"
+                android:layout_gravity="center"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="40dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/my_name"
+                android:textColor="@color/color_white"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_size_24"
+                android:id="@+id/name"
+                android:layout_gravity="center"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/my_email"
+                android:textColor="@color/color_white"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_size_24"
+                android:id="@+id/email"
+                android:layout_gravity="center"
+                android:layout_below="@+id/name"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/my_skils_in_it"
+            android:textSize="@dimen/text_size_24"
+            android:textColor="@color/color_white"
+            android:fontFamily="serif"
+            android:id="@+id/label_skills_in_it"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:id="@+id/scrollView"
+            android:layout_height="@dimen/scroll_size"
+            android:layout_weight="0.46">
+
+            <TextView
+                android:paddingLeft="@dimen/padding_scroll_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/text_skills_in_it"
+                android:fontFamily="monospace"
+                android:textColor="@color/color_yellow"
+                />
+        </ScrollView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/my_personal_skills"
+            android:textSize="@dimen/text_size_24"
+            android:textColor="@color/color_white"
+            android:fontFamily="serif"
+            android:id="@+id/label_skils_personal"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView2"
+            android:layout_weight="2" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/text_personal_skills"
+                android:fontFamily="monospace"
+                android:paddingLeft="@dimen/padding_scroll_text"
+                android:textColor="@color/color_yellow"
+                />
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

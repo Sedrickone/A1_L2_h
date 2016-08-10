@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Material Design Color-->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FF4081</color>
+    <!--Color of my Homework-->
+    <color name="color_white">#ffffff</color>
+    <color name="color_black">#000000</color>
+    <color name="color_red">#ff0000</color>
+    <color name="color_green">#04ff00</color>
+    <color name="color_blue">#000048ff</color>
+    <color name="color_yellow">#fff200</color>
+    <!--Text color  -->
+    <color name="txt_color_main">#c8536362</color>
+    <!--Color gradient-->
+    <color name="btn_color_gradientend">#c86200f5</color>
+
+</resources>

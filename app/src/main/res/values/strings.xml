@@ -1,0 +1,33 @@
+<resources>
+    <!--String values app-->
+    <string name="app_name">A1_L2_h</string>
+    <string name="my_txt">Портретная ориентация</string>
+    <!--My personal date-->
+    <string name="my_surname">Абишев</string>
+    <string name="my_name">Хамит</string>
+    <string name="my_email">timah87@mail.ru</string>
+    <string name="main_btn_text">Do you want know about me?</string>
+    <string name="my_personal_skills">My personal skills</string>
+    <string name="my_skils_in_it">My skils in IT</string>
+    <string name="status">В обычное время</string>
+
+    <!--My personal skills -->
+    <string-array name="array_my_skills">
+        <item>Креативный</item>
+        <item>Ответственный</item>
+        <item>Всесторонне образован</item>
+        <item>Творческий человек</item>
+        <item>Пунктуальный</item>
+        <item>Без вредных привычек</item>
+    </string-array>
+
+    <string-array name="array_skills_in_IT">
+        <item>Знание Java Core</item>
+        <item>Знание Android SDK</item>
+        <item>Опыт работы в IntelliJ IDEA, Eclipse, Android Studio</item>
+        <item>Опыт разработки Android-приложений на Java</item>
+        <item>Опыт работы с XML, JSON, HTTP, sockets</item>
+        <item>SQLite, Web, Concurrency</item>
+        <item>Знание синтаксиса языка SQL</item>
+    </string-array>
+</resources>
